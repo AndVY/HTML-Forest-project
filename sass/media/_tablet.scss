@@ -1,0 +1,176 @@
+/* Tablet - up to 1199px */
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+    .header {
+        height: 591px;
+    }
+    .header-top {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-content {
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-nav-list {
+        display: none;
+    }
+    .header-nav-button {
+        display: block;
+
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+    .header-title {
+        font-size: 52px;
+    }
+    .header-scroll {
+        font-size: 0;
+    }
+    /* main */
+    .main {
+        padding: 80px 0;
+    }
+    .main-row {
+        margin-bottom: 80px;
+    }
+    .main-content {
+        width: 420px;
+    }
+    .main-title {
+        font-size: 50px;
+        line-height: 1;
+    }
+    .main-content-text {
+        margin-bottom: 20px;
+
+        font-size: 18px;
+    }
+    .main-img {
+        width: 420px;
+    }
+    /* footer */
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-widget-services {
+        display: none;
+    }
+    .footer-copyright .logo {
+        padding-bottom: 20px;
+
+        font-size: 30px;
+    }
+    .footer-copyright p {
+        font-size: 14px;
+    }
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+
+    /* Inner pages */
+    /* header the same changes as in main */
+    /* footer the same */
+
+    /* inner-main */
+    .inner-page-main {
+        padding-bottom: 60px;
+    }
+
+    /* Inner pages - Tours-main */
+    .inner-main-tours-title {
+        margin-bottom: 40px;
+    }
+    .inner-main-tours-title .main-title {
+        font-size: 50px;
+    }
+    .card {
+        width: 420px;
+        height: 300px;
+    }
+    .card.big {
+        width: 495px;
+        height: 270px;
+    }
+    .card.small {
+        width: 345px;
+        height: 570px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    .card-title-wrapper {
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Inner pages - Article-main */
+    .inner-page-main.article-main {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .article-nav-list {
+        font-size: 18px;
+    }
+    .article-content {
+        width: 570px;
+    }
+    .article-content p {
+        font-size: 18px;
+    }
+    .article-content h1 {
+        margin-bottom: 20px;
+
+        font-size: 50px;
+    }
+    .article-content img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* Inner pages - Contacts-main */
+    .inner-page-main.contacts-main {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .contact-row {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .contact-column {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .contact-widget {
+        width: 420px;
+    }
+    .contact-widget:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .contact-widget-title {
+        font-size: 24px;
+    }
+    .contact-widget:first-child .contact-widget-title {
+        margin-bottom: 25px;
+    }
+    .contact-widget-content {
+        font-size: 18px;
+    }
+    .contact-widget-content .map {
+        width: 420px;
+        height: 310px;
+    }
+    .form {
+        width: 100%;
+    }
+}

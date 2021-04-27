@@ -1,0 +1,124 @@
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+
+/* Initial settings */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.none {
+    display: none;
+}
+
+/* sticky footer */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+body > * {
+    flex-shrink: 0;
+}
+
+/* General settings for project*/
+
+ul {
+    list-style-type: none;
+}
+
+body,
+input {
+    font-family: "PT Sans", sans-serif;
+    color: #31405b;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.body-bgcolor {
+    background-color: #f2f8f6;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+/* Inner pages - General properties */
+
+.inner-page-main {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+/* Page 404 */
+
+.error-title {
+    margin-top: 15px;
+
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.error-title a {
+    color: #138ece;
+}

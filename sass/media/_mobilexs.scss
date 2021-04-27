@@ -1,0 +1,218 @@
+/* Mobile XS - up t0 599px */
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+    .main .container {
+        width: 100%;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .header-title {
+        margin-bottom: 10px;
+
+        font-size: 32px;
+    }
+    .header-content p {
+        font-size: 18px;
+    }
+    /* main */
+    .main {
+        padding: 40px 0;
+    }
+    .main-row {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .main-title {
+        font-size: 34px;
+    }
+    .main-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: auto;
+        height: 150px;
+    }
+    /* footer */
+    .footer-widget-services {
+        display: block;
+    }
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        text-align: center;
+    }
+    .footer-widget-title {
+        font-size: 20px;
+    }
+    .footer-widget {
+        margin-bottom: 40px;
+        width: 100%;
+
+        font-size: 14px;
+    }
+    .footer-widget:not(:last-child) {
+        margin-right: 0;
+    }
+    .footer-widget-item {
+        margin-bottom: 10px;
+    }
+    .footer-copyright .logo {
+        padding-bottom: 10px;
+    }
+
+    /* Inner pages */
+    /* footer the same */
+
+    /* inner-main */
+    /* Inner pages - Tours-main */
+    .inner-main-tours-title {
+        margin-bottom: 30px;
+    }
+    .inner-main-tours-title .main-title {
+        font-size: 28px;
+    }
+    .card {
+        width: 290px;
+        height: 290px;
+    }
+    .card.big,
+    .card.small {
+        width: 290px;
+        height: 260px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-title-wrapper {
+        height: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cards-row-1 {
+        margin-bottom: 20px;
+    }
+    .card-link-wrapper:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .cards-row-2-column-1 {
+        margin-bottom: 20px;
+    }
+
+    /* Inner pages - Article-main */
+    .inner-page-main.article-main {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .article-nav-title {
+        margin-bottom: 14px;
+
+        font-size: 22px;
+    }
+    .article-nav-list {
+        font-size: 16px;
+    }
+    .article-content {
+        margin-bottom: 30px;
+        /* width: 290px; */
+        /* for adaptive */
+    }
+    .article-content h1 {
+        margin-bottom: 10px;
+
+        font-size: 28px;
+    }
+    .article-content p {
+        font-size: 16px;
+    }
+    /* Inner pages - Contacts-main */
+    .contacts-title .main-title {
+        font-size: 28px;
+    }
+    .contact-column {
+        margin-bottom: 30px;
+    }
+    .contact-widget-title {
+        font-size: 20px;
+    }
+    .contact-widget-content li {
+        padding-left: 34px;
+    }
+    .contact-widget-content li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .contact-widget:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .contact-icon.contact-phone::before,
+    .contact-icon.contact-email::before {
+        top: 1px;
+    }
+    .contact-icon.contact-address::before {
+        top: 10px;
+    }
+    .contact-widget:first-child .contact-widget-title {
+        margin-bottom: 20px;
+    }
+    .contact-widget-content {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .contact-widget-content .map {
+        height: 157px;
+    }
+    .form {
+        padding: 20px 15px 30px;
+    }
+    .form-title {
+        font-size: 24px;
+    }
+    .form-group-title {
+        margin-bottom: 10px;
+
+        font-size: 18px;
+    }
+    .form-group span {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+    .form-group-row {
+        flex-direction: column;
+    }
+    .form-group-row > .form-input + .form-input {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .radio-label {
+        margin-bottom: 10px;
+    }
+    .checkbox-label {
+        margin-bottom: 20px;
+    }
+    .custom-checkbox {
+        top: 3px;
+    }
+    .button {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}

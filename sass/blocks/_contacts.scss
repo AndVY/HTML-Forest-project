@@ -1,0 +1,94 @@
+/* Inner pages - Contacts */
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-column {
+    width: 470px;
+}
+
+.contact-widget:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+/* Alternate way
+.contact-widget + .contact-widget {
+    margin-top: 40px;
+}
+*/
+
+.contact-widget-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.contact-widget-content {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Old variant via <p>
+.contact-widget-content p {
+    position: relative;
+    padding-left: 39px;
+}
+
+.contact-widget-content p:not(:last-child) {
+    margin-bottom: 15px;
+}
+*/
+
+.contact-widget-content li {
+    position: relative;
+    padding-left: 39px;
+}
+
+.contact-widget-content li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.contact-icon::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+
+    background-repeat: no-repeat;
+}
+
+.contact-icon.contact-phone::before {
+    background-image: url("./../img/icons/phone.svg");
+}
+
+.contact-icon.contact-email::before {
+    background-image: url("./../img/icons/mail.svg");
+}
+
+.contact-icon.contact-address::before {
+    background-image: url("./../img/icons/map-pin.svg");
+}
+
+.contact-widget-content a {
+    text-decoration: none;
+    color: #138ece;
+}
+
+.contact-widget-content a:hover {
+    text-decoration: underline;
+}
+
+.contact-widget-content a:active {
+    opacity: 0.8;
+}

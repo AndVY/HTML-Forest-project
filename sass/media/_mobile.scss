@@ -1,0 +1,199 @@
+/* Mobile - up to 899px */
+@media (max-width: 899px) {
+    .container {
+        width: 600px;
+    }
+    .header-content {
+        width: 100%;
+    }
+    .header-title {
+        font-size: 42px;
+    }
+    .header-content p {
+        font-size: 20px;
+    }
+    /* main */
+    .main {
+        padding: 60px 0;
+    }
+    .main-row {
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
+    .main-content {
+        width: auto;
+    }
+    .main-title {
+        font-size: 42px;
+    }
+    .main-content-text {
+        font-size: 16px;
+    }
+    .button {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 46px;
+
+        font-size: 18px;
+        line-height: 46px;
+    }
+    .main-img {
+        flex-shrink: 0;
+        margin-right: 30px;
+        width: 170px;
+    }
+    .main-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    /* footer */
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-row {
+        flex-direction: column-reverse;
+    }
+    .footer-widgets-wrapper {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .footer-widgets-wrapper > * {
+        margin: 0;
+        width: calc(50% - 15px);
+    }
+    .footer-copyright {
+        width: 100%;
+    }
+
+    /* Inner pages */
+    /* footer the same */
+
+    /* header-inner */
+    .header-inner {
+        height: 80px;
+    }
+    .header-inner .logo {
+        font-size: 30px;
+    }
+
+    /* inner-main */
+    .inner-page-main {
+        padding-bottom: 40px;
+    }
+
+    /* Inner pages - Tours-main */
+    .inner-main-tours-title .main-title {
+        font-size: 42px;
+    }
+    .cards-row-1,
+    .cards-row-2 {
+        flex-direction: column;
+    }
+    .card {
+        width: 570px;
+        height: 300px;
+    }
+    .card.big,
+    .card.small {
+        width: 570px;
+        height: 270px;
+    }
+    .card-title-wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .card-link-wrapper:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .cards-row-2-column-1 {
+        margin-bottom: 30px;
+    }
+    .cards-row-2-column-1 > * + * {
+        margin-top: 0;
+    }
+
+    /* Inner pages - Article-main */
+    .inner-page-main.article-main .container {
+        width: 100%;
+        /* for adaptive */
+    }
+    .inner-page-main.article-main {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    .article-row {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .article-nav {
+        padding-top: 0;
+        /* width: 570px; */
+        width: 100%;
+        /* for adaptive */
+    }
+    .article-nav-title {
+        margin-bottom: 19px;
+    }
+    .article-content {
+        margin-bottom: 40px;
+        /* width: 570px; */
+        width: 100%;
+        /* for adaptive */
+    }
+    .article-content h1 {
+        font-size: 42px;
+    }
+    .article-content p {
+        font-size: 16px;
+    }
+    .article-content img {
+        /* margin-top: 20px;
+        margin-bottom: 20px; */
+        margin: 20px auto;
+        /* for adaptive */
+    }
+
+    /* Inner pages - Contacts-main */
+    .inner-page-main.contacts-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    /* Inner pages - Contacts-main */
+    .contacts-title {
+        margin-bottom: 30px;
+    }
+    .contact-column {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .contact-widget {
+        width: 100%;
+    }
+    .contact-widget:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .contact-widget-content li {
+        padding-left: 40px;
+    }
+    .contact-widget-content .map {
+        width: 100%;
+        height: 310px;
+    }
+    .form {
+        padding: 30px;
+    }
+    .form-group:last-of-type {
+        margin-bottom: 30px;
+    }
+    .button {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 46px;
+        font-size: 18px;
+        line-height: 46px;
+    }
+}

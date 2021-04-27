@@ -1,0 +1,120 @@
+.header {
+    position: relative;
+    padding-top: 50px;
+    height: 800px;
+
+    background-color: #265847;
+    background: url("./../img/header/header-big.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+    background-color: #265847;
+    background: url("./../img/header/header-small.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.header-nav {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.header-nav-button {
+    display: none;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-nav-list-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.header-nav-list-link:hover {
+    color: #31405b;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.header-nav-list-link:active {
+    opacity: 0.8;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 16px;
+    transform: translate(-50%, -50%);
+    width: 1170px;
+
+    text-align: center;
+}
+
+.header-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.header-content p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.header-scroll {
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 34px;
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-scroll::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    width: 18px;
+    height: 24px;
+
+    background-image: url("./../img/icons/arrow-down.svg");
+}
+
+.header-scroll:hover::after {
+    transform: translateX(-50%) translateY(50%);
+}
